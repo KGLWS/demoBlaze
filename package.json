@@ -1,0 +1,34 @@
+{
+  "name": "automationcypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test --browser chrome",
+    "recordDashBoardTest": "npm run test -- -- record --key ae34rfadf34e3f"
+  },
+  "author": "Edil",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^2.2.1",
+    "mocha": "^7.2.0",
+    "mochawesome": "^6.1.1"
+  },
+  "dependencies": {
+    "@bahmutov/cy-api": "^1.5.0",
+    "cypress-log-to-output": "^1.0.8",
+    "cypress-promise": "^1.1.0",
+    "cypress-terminal-report": "^1.4.2",
+    "cypress-wait-until": "^1.7.1",
+    "cypress-xpath": "^1.6.0",
+    "mocha": "^7.2.0",
+    "mochawesome": "^5.0.0",
+    "mochawesome-merge": "^4.0.3",
+    "mochawesome-report-generator": "^4.1.0",
+    "prettier": "^1.19.1"
+  }
+}
